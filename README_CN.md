@@ -23,7 +23,9 @@
 
 ## 截图
 
-> *(在此处添加截图)*
+| 截图 1 | 截图 2 |
+|---|---|
+| ![BLE Debug Master 截图 1](snapshot/screenshot_20260311_150334.jpg) | ![BLE Debug Master 截图 2](snapshot/screenshot_20260311_150339.jpg) |
 
 ---
 
@@ -81,7 +83,6 @@ entry/src/main/ets/
 ```json
 "requestPermissions": [
   { "name": "ohos.permission.ACCESS_BLUETOOTH" },
-  { "name": "ohos.permission.LOCATION" }
 ]
 ```
 

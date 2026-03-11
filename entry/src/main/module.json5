@@ -17,13 +17,6 @@
         "usedScene": {
           "when": "inuse"
         }
-      },
-      {
-        "name": "ohos.permission.LOCATION",
-        "reason": "$string:location_reason",
-        "usedScene": {
-          "when": "inuse"
-        }
       }
     ],
     "abilities": [

@@ -23,7 +23,9 @@ A BLE (Bluetooth Low Energy) debugging tool built for **HarmonyOS** using ArkTS 
 
 ## Screenshots
 
-> *(Add screenshots here)*
+| Screenshot 1 | Screenshot 2 |
+|---|---|
+| ![BLE Debug Master Screenshot 1](snapshot/screenshot_20260311_150334.jpg) | ![BLE Debug Master Screenshot 2](snapshot/screenshot_20260311_150339.jpg) |
 
 ---
 
@@ -81,7 +83,6 @@ Declared in `entry/src/main/module.json5`:
 ```json
 "requestPermissions": [
   { "name": "ohos.permission.ACCESS_BLUETOOTH" },
-  { "name": "ohos.permission.LOCATION" }
 ]
 ```
 
