@@ -1,0 +1,42 @@
+{
+  "string" : [ {
+    "name" : "module_desc",
+    "value" : "module description"
+  }, {
+    "name" : "EntryAbility_desc",
+    "value" : "description"
+  }, {
+    "name" : "EntryAbility_label",
+    "value" : "label"
+  }, {
+    "name" : "defaultForm_label",
+    "value" : "form_label"
+  }, {
+    "name" : "defaultForm_desc",
+    "value" : "form_description"
+  }, {
+    "name" : "EntryFormAbility_desc",
+    "value" : "form_description"
+  }, {
+    "name" : "EntryFormAbility_label",
+    "value" : "form_label"
+  }, {
+    "name" : "widget_desc",
+    "value" : "This is a service widget."
+  }, {
+    "name" : "widget_display_name",
+    "value" : "widget"
+  }, {
+    "name" : "widget1_desc",
+    "value" : "This is a service widget."
+  }, {
+    "name" : "widget1_display_name",
+    "value" : "widget1"
+  }, {
+    "name" : "bluetooth_reason",
+    "value" : "用于扫描和连接蓝牙设备进行调试"
+  }, {
+    "name" : "location_reason",
+    "value" : "用于扫描附近的蓝牙设备"
+  } ]
+}
