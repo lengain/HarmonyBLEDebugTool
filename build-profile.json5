@@ -1,19 +1,6 @@
 {
   "app": {
     "signingConfigs": [
-      {
-        "name": "default",
-        "type": "HarmonyOS",
-        "material": {
-          "certpath": "/Users/tongyulong/.ohos/config/default_BLEDebugMaster_KtX3rkLUfxR1cD7wrWa3kyQquxRed26xDmiheoSbias=.cer",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001B64CC62B1AC7E701CBABA063536F143A1C70B226DB333CA21B82C05D5A6B9B359C5B9291C3DEDCF",
-          "profile": "/Users/tongyulong/.ohos/config/default_BLEDebugMaster_KtX3rkLUfxR1cD7wrWa3kyQquxRed26xDmiheoSbias=.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/tongyulong/.ohos/config/default_BLEDebugMaster_KtX3rkLUfxR1cD7wrWa3kyQquxRed26xDmiheoSbias=.p12",
-          "storePassword": "0000001BFD6CFB1BEC2F49748927907FBFADE8BE0A5D2D2D86FCD3A52E0C7A1A4486A378C8CDF00B515C28"
-        }
-      }
     ],
     "products": [
       {
