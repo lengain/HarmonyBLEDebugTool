@@ -101,6 +101,7 @@ export struct BluetoothDeviceListModule {
     } else {
       Logger.info('Start scanning');
       this.scanErrorMessage = '';
+      this.scannedDevices = [];
       this.itemModel.startScan();
     }
   }
@@ -277,11 +278,13 @@ export struct BluetoothDeviceListModule {
                   .backgroundColor($r('app.color.module_item_bg_color'))
                 }, (device: BluetoothDevice) => device.deviceId)
               }
+              .height('100%')
               .width('auto')
               .edgeEffect(EdgeEffect.Spring, { alwaysEnabled: true })
               .listDirection(this.listDirection)
               .lanes(new BreakpointType(this.lanesArray[0], this.lanesArray[1],
                 this.lanesArray[2]).getValue(this.currentWidthBreakpoint), "12vp")
+              .padding({ bottom: '56vp' })
             }
           }
         }
@@ -289,8 +292,11 @@ export struct BluetoothDeviceListModule {
         .margin({ bottom: "10vp" })
         .align(Alignment.Center)
         .width('92%')
+        .layoutWeight(1)
       }
       .width("100%")
+      .height("100%")
+      .justifyContent(FlexAlign.SpaceBetween)
     }
     .width("100%")
     .align(Alignment.TopStart)
